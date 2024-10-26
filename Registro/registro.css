@@ -1,0 +1,65 @@
+/* Estilo general para el cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.shopify.com/s/files/1/0840/8347/4747/files/Telas-alqueria.jpg?v=1699563535');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Estilo del contenedor del formulario */
+.registro-container {
+    width: 100%;
+    max-width: 400px; /* Limita el ancho a 400px */
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Estilo del título */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas y campos de entrada */
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    max-width: 100%; /* Evita que se extiendan fuera del contenedor */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo de las opciones de checkbox */
+.opciones {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Estilo del botón de enviar */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.shopify.com/s/files/1/0840/8347/4747/files/Telas-alqueria.jpg?v=1699563535');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.tela-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid de telas */
+.telas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Item de tela */
+.tela-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título de cada tela */
+.tela-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Select y input */
+.tela-item select, .tela-item input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botón de añadir al carrito */
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.tela-item {
+    width: 200px; /* Ajusta el ancho de cada item */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.tela-img {
+    width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    max-width: 180px; /* Máximo ancho para evitar que ocupe más espacio */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Mantiene la proporción sin deformar la imagen */
+    margin-bottom: 10px;
+}
+
+.telas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en la pantalla */
+    gap: 20px; /* Espacio entre elementos */
+}
